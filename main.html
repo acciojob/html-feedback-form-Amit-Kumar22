@@ -9,13 +9,13 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<header><h3>Feedback Form</h3>
-		<form>
+		<form action="/action_page.php" method="get">
 			<label for="name">
 			<input type="text" placeholder="name" id="name" minlength="3" maxlength="50">
 			</label>
 			<br><br>
 			<label for="portfolio">
-			<input type="text" placeholder="portfolio" id="portfolio" minlength="3" maxlength="50">
+			<input id="myURL" name="myURL" type="url" placeholder="http://www.example.com" />
 			</label>
 			<br>
 			<input type="submit" value="submit"></input>
